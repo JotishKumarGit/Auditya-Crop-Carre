@@ -30,12 +30,9 @@
       </ol>
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
-        <div class="item active"><img src="./img/slide_1.png" style="height: 600px !important;" width="100%"
+        <div class="item active"><img src="./img/slide_1.png" style="height: 750px !important;" width="100%"
             alt="Auditya Crop Care - Agro Chemicals Manufacturer"> </div>
-        <div class="item"><img src="images/slider/02.jpg" width="100%" alt="Agro Chemicals Manufacturing"> </div>
-        <div class="item"><img src="images/slider/03.jpg" width="100%" alt="Insecticides, Fungicides, Herbicides">
-        </div>
-        <div class="item"><img src="images/slider/04.jpg" width="100%" alt="Bulk Agro Chemicals"> </div>
+        <div class="item"><img src="./img/slide_2.png" width="100%" style="height: 750px !important;" alt="Agro Chemicals Manufacturing"> </div>
       </div>
     </div>
   </section>
@@ -77,6 +74,7 @@
 
       <div class="row justify-content-center align-items-center">
 
+        <!-- 1  -->
         <div class="col-md-4 col-sm-6">
           <div class="panel panel-default">
             <div class="panel-body text-center">
@@ -89,7 +87,7 @@
             </div>
           </div>
         </div>
-
+        <!-- 2 -->
         <div class="col-md-4 col-sm-6">
           <div class="panel panel-default">
             <div class="panel-body text-center">
@@ -102,11 +100,11 @@
             </div>
           </div>
         </div>
-
+        <!-- 3 -->
         <div class="col-md-4 col-sm-6">
           <div class="panel panel-default">
             <div class="panel-body text-center">
-              <img src="./img/Emamectin-Benzoate-Ec-Insecticide.jpeg" style="height: 300px; width: 100%;"
+              <img src="./img/Emamecting-Benzoate.png" style="height: 300px; width: 100%;"
                 alt="Emamectin Benzoate 1.9% EC Insecticide">
               <h3>Emamectin Benzoate 1.9% EC</h3>
               <p>Highly effective against lepidopteran larvae in vegetables and crops.</p>
@@ -115,7 +113,7 @@
             </div>
           </div>
         </div>
-
+        <!-- 4 -->
         <div class="col-md-4 col-sm-6">
           <div class="panel panel-default">
             <div class="panel-body text-center">
@@ -128,7 +126,7 @@
             </div>
           </div>
         </div>
-
+        <!-- 5 -->
         <div class="col-md-4 col-sm-6">
           <div class="panel panel-default">
             <div class="panel-body text-center">
@@ -141,8 +139,105 @@
             </div>
           </div>
         </div>
+        <!-- 6 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body text-center">
+              <img src="./img/Cypermethrin-ec.png" style="height: 300px; width: 100%;"
+                alt="Cypermethrin 10% EC Insecticide">
+              <h3>Cypermethrin 10% EC</h3>
+              <p>
+                A powerful synthetic pyrethroid insecticide used to control a wide range of
+                chewing and sucking pests in cotton, vegetables, and other crops.
+              </p>
+              <a href="Cypermethrin.php" class="btn btn-default">Details</a>
+              <a href="#" onclick="openModal()" class="btn btn-primary">Enquiry</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body text-center">
+              <img src="./img/Glyphosate-sl.png" style="height: 300px; width: 100%;" alt="Glyphosate 41% SL Herbicide">
+              <h3>Glyphosate 41% SL</h3>
+              <p>
+                A non-selective systemic herbicide effective against a broad spectrum of
+                annual and perennial weeds in agricultural and non-crop areas.
+              </p>
+              <a href="Glyphosate.php" class="btn btn-default">Details</a>
+              <a href="#" onclick="openModal()" class="btn btn-primary">Enquiry</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body text-center">
+              <img src="./img/Imidacloprid-sl.png" style="height: 300px; width: 100%;" alt="Imidacloprid 17.8% SL Insecticide">
+              <h3>Imidacloprid 17.8% SL</h3>
+              <p>
+                A systemic neonicotinoid insecticide used to control sucking pests such as
+                aphids, jassids, thrips, and whiteflies in various crops.
+              </p>
+              <a href="Imidacloprid.php" class="btn btn-default">Details</a>
+              <a href="#" onclick="openModal()" class="btn btn-primary">Enquiry</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body text-center">
+              <img src="./img/Metalaxyl-mancozeb.png" style="height: 300px; width: 100%;" alt="Metalaxyl 8% + Mancozeb 64% WP Fungicide">
+              <h3>Metalaxyl 8% + Mancozeb 64% WP</h3>
+              <p>
+                A combination fungicide providing both systemic and contact action for the
+                control of downy mildew, late blight, and other fungal diseases.
+              </p>
+              <a href="Metalaxyl-Mancozeb.php" class="btn btn-default">Details</a>
+              <a href="#" onclick="openModal()" class="btn btn-primary">Enquiry</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body text-center">
+              <img src="./img/paraquat-dichloride-sl.png" style="height: 300px; width: 100%;" alt="Paraquat Dichloride 24% SL Herbicide">
+              <h3>Paraquat Dichloride 24% SL</h3>
+              <p>
+                A fast-acting contact herbicide used for effective control of broadleaf weeds
+                and grasses in plantations and non-crop areas.
+              </p>
+              <a href="Paraquat.php" class="btn btn-default">Details</a>
+              <a href="#" onclick="openModal()" class="btn btn-primary">Enquiry</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body text-center">
+              <img src="./img/Thiamethoxam-sg.png" style="height: 300px; width: 100%;" alt="Thiamethoxam 25% WG Insecticide">
+              <h3>Thiamethoxam 25% WG</h3>
+              <p>
+                A systemic neonicotinoid insecticide effective against sucking pests like
+                aphids, whiteflies, and leafhoppers with long-lasting protection.
+              </p>
+              <a href="Thiamethoxam.php" class="btn btn-default">Details</a>
+              <a href="#" onclick="openModal()" class="btn btn-primary">Enquiry</a>
+            </div>
+          </div>
+        </div>
 
       </div>
+
     </div>
   </section>
   <!-- end products sections  -->
