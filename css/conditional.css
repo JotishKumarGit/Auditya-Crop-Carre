@@ -159,7 +159,7 @@ header .navbar-collapse {
 header .navbar-brand {
 	padding: 0 !important;
 	max-width: 285px;
-	height: auto;
+	height: 100px !important;
 	display: block;
 	left: 0;
 	top: -35px;
@@ -309,7 +309,7 @@ a.mob_link_dd_act {
 	font-size: 45px;
 	line-height: 45px;
 	font-family: 'Open Sans', serif;
-	text-shadow: 1px 1px rgba(0, 0, 0, 0.3)
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .slider_con .caption h3 span {
@@ -1251,18 +1251,20 @@ footer h3:after {
 	}
 
 	header .navbar-brand {
-		margin-left: 10px;
-		background: #2478b8 url(../images/logo2.png) no-repeat center center;
-		height: 70px;
-		width: 180px;
-		overflow: hidden;
-		position: static;
 		margin-left: -15px;
+		height: 130px;
+		width: 180px;
+		overflow: visible;
+		position: relative;
 	}
 
 	header .navbar-brand img {
-		display: none;
+		position: relative;
+		z-index: 10;
+		display: block;
+		margin-left: 30px;
 	}
+
 
 	/*header clasess ends*/
 	/*welcome clasess*/

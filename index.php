@@ -15,44 +15,8 @@
 
 <body id="home">
 
-  <header>
-    <!--top -->
-    <div class="top_con">
-      <div class="container">
-        <div class="right_con">
-          <div class="tp_contact_con">
-            <p><span><i class="fa fa-envelope mr3"></i> <a href="#">info@yourwebsite.com</a></span> <span
-                class="ml15"><i class="fa fa-phone mr3"></i> <a href="#">9597254501</a>, <a
-                  href="#">8939205000</a></span></p>
-          </div>
-          <div class="tp_social_con"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i
-                class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i
-                class="fa fa-youtube"></i></a></div>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
-    <!--top ends-->
-    <nav>
-      <div class="container rel">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-            aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span
-              class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-          <a href="#" class="navbar-brand trans_eff"><img src="images/logo.png" alt="Auditya Crop Care"></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" class="home">Home</a></li>
-            <li><a href="#" class="about-us">About Us</a></li>
-            <li><a href="#" class="products">Our Products</a></li>
-            <li><a href="#" class="contact-us">Contact Us</a></li>
-            <li><a href="#" class="sitemap">Sitemap</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- header -->
+  <?php include('header.php') ?>
 
   <!-- BANNER STARTS -->
   <section class="slider_con">
@@ -66,7 +30,7 @@
       </ol>
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
-        <div class="item active"><img src="images/slider/01.jpg" width="100%"
+        <div class="item active"><img src="./img/slide_1.png" style="height: 600px !important;" width="100%"
             alt="Auditya Crop Care - Agro Chemicals Manufacturer"> </div>
         <div class="item"><img src="images/slider/02.jpg" width="100%" alt="Agro Chemicals Manufacturing"> </div>
         <div class="item"><img src="images/slider/03.jpg" width="100%" alt="Insecticides, Fungicides, Herbicides">
@@ -120,8 +84,8 @@
                 alt="Chlorpyriphos 50% EC Insecticide">
               <h3>Chlorpyriphos 50% EC Insecticide</h3>
               <p>Broad-spectrum insecticide effective against soil and foliar pests in crops.</p>
-              <a href="#" class="btn btn-default">Details</a>
-              <a href="#" class="btn btn-primary">Enquiry</a>
+              <a href="Chlorpyriphos.php" class="btn btn-default">Details</a>
+              <a href="#" onclick="openModal()" class="btn btn-primary">Enquiry</a>
             </div>
           </div>
         </div>
@@ -133,8 +97,8 @@
                 alt="Diafenthiuron 50% WP Insecticide">
               <h3>Diafenthiuron 50% WP Insecticide</h3>
               <p>Controls whiteflies, aphids, mites, and other sucking pests effectively.</p>
-              <a href="#" class="btn btn-default">Details</a>
-              <a href="#" class="btn btn-primary">Enquiry</a>
+              <a href="Diafenthiuron.php" class="btn btn-default">Details</a>
+              <a href="#" onclick="openModal()" class="btn btn-primary">Enquiry</a>
             </div>
           </div>
         </div>
@@ -146,8 +110,8 @@
                 alt="Emamectin Benzoate 1.9% EC Insecticide">
               <h3>Emamectin Benzoate 1.9% EC</h3>
               <p>Highly effective against lepidopteran larvae in vegetables and crops.</p>
-              <a href="#" class="btn btn-default">Details</a>
-              <a href="#" class="btn btn-primary">Enquiry</a>
+              <a href="Emamectin-Benzoate.php" class="btn btn-default">Details</a>
+              <a href="#" onclick="openModal()" class="btn btn-primary">Enquiry</a>
             </div>
           </div>
         </div>
@@ -159,21 +123,8 @@
                 alt="Lambda Cyhalothrin 5% Insecticide">
               <h3>Lambda Cyhalothrin 5%</h3>
               <p>Fast-acting synthetic pyrethroid for chewing and sucking insects.</p>
-              <a href="#" class="btn btn-default">Details</a>
-              <a href="#" class="btn btn-primary">Enquiry</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6">
-          <div class="panel panel-default">
-            <div class="panel-body text-center">
-              <img src="./img/Lambdacyalohthrin-Insecticide.jpeg" style="height: 300px; width: 100%;"
-                alt="Lambda Cyhalothrin 2.5% Insecticide">
-              <h3>Lambda Cyhalothrin 2.5%</h3>
-              <p>Provides long-lasting protection against major crop pests.</p>
-              <a href="#" class="btn btn-default">Details</a>
-              <a href="#" class="btn btn-primary">Enquiry</a>
+              <a href="Lambda-Cyhalothrin.php" class="btn btn-default">Details</a>
+              <a href="#" onclick="openModal()" class="btn btn-primary">Enquiry</a>
             </div>
           </div>
         </div>
@@ -185,8 +136,8 @@
                 alt="Profenophos 50% EC Insecticide">
               <h3>Profenophos 50% EC Insecticide</h3>
               <p>Organophosphate insecticide for effective pest management in crops.</p>
-              <a href="#" class="btn btn-default">Details</a>
-              <a href="#" class="btn btn-primary">Enquiry</a>
+              <a href="Profenophos.php" class="btn btn-default">Details</a>
+              <a href="#" onclick="openModal()" class="btn btn-primary">Enquiry</a>
             </div>
           </div>
         </div>
@@ -427,42 +378,52 @@
               Us a Message</h3>
             <form id="contactForm">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name" required
+                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required
                   style="padding: 12px; border-radius: 3px; border: 1px solid #ddd;">
               </div>
+
               <div class="form-group">
-                <input type="email" class="form-control" placeholder="Your Email" required
+                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required
                   style="padding: 12px; border-radius: 3px; border: 1px solid #ddd;">
               </div>
+
               <div class="form-group">
-                <input type="tel" class="form-control" placeholder="Phone Number"
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number"
                   style="padding: 12px; border-radius: 3px; border: 1px solid #ddd;">
               </div>
+
               <div class="form-group">
-                <select class="form-control" style="padding: 12px; border-radius: 3px; border: 1px solid #ddd;">
+                <select class="form-control" id="product"
+                  style="padding: 5px; border-radius: 3px; border: 1px solid #ddd;">
                   <option value="">Product Interest</option>
-                  <option value="herbicides">Herbicides</option>
-                  <option value="insecticides">Insecticides</option>
-                  <option value="fungicides">Fungicides</option>
-                  <option value="all">All Products</option>
+                  <option value="Herbicides">Herbicides</option>
+                  <option value="Insecticides">Insecticides</option>
+                  <option value="Fungicides">Fungicides</option>
+                  <option value="All Products">All Products</option>
                 </select>
               </div>
+
               <div class="form-group">
-                <select class="form-control" style="padding: 12px; border-radius: 3px; border: 1px solid #ddd;">
+                <select class="form-control" id="quantity"
+                  style="padding: 5px; border-radius: 3px; border: 1px solid #ddd;">
                   <option value="">Quantity Required</option>
-                  <option value="bulk">Bulk Order</option>
-                  <option value="sample">Sample First</option>
-                  <option value="regular">Regular Supply</option>
-                  <option value="export">Export Inquiry</option>
+                  <option value="Bulk Order">Bulk Order</option>
+                  <option value="Sample First">Sample First</option>
+                  <option value="Regular Supply">Regular Supply</option>
+                  <option value="Export Inquiry">Export Inquiry</option>
                 </select>
               </div>
+
               <div class="form-group">
-                <textarea class="form-control" rows="4" placeholder="Your Message / Requirements" required
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message / Requirements" required
                   style="padding: 12px; border-radius: 3px; border: 1px solid #ddd;"></textarea>
               </div>
-              <button type="submit" class="btn btn-warning trans_eff"
-                style="padding: 12px 30px; font-weight: bold;">Send Inquiry</button>
+
+              <button type="submit" class="btn btn-warning trans_eff" style="padding: 2px 30px; font-weight: bold;">
+                Send Inquiry
+              </button>
             </form>
+
           </div>
         </div>
         <div class="col-md-6">
@@ -538,61 +499,5 @@
   </section>
   <!-- CONTACT US 2 COLUMN ENDS -->
 
-  <!--A FOOTER STARTS AAA--><!-- #BeginLibraryItem "/Library/footer.lbi" -->
-  <footer>
-    <div class="container">
-      <div class="col-1">
-        <h3>Quick Links</h3>
-        <div class="f_link"> <a href="#">Home</a> <a href="#">About Us</a> <a href="#">Our Products</a> <a
-            href="#">Contact Us</a> <a href="#">Sitemap</a></div>
-      </div>
-      <div class="col-2">
-        <h3>Our Products</h3>
-        <div class="f_link"> <a href="#">Insecticides</a> <a href="#">Fungicides</a> <a href="#">Herbicides</a> <a
-            href="#" style="color:#fff;" class="uu">Bulk Orders</a> </div>
-      </div>
-      <div class="col-3">
-        <h3>Contact Info</h3>
-        <div class="f_contact_con">
-          <p><i class="fa fa-map-marker fs18 mr8 white"></i> 26-B4, SIDCO Industrial Estate, Pattaravakkam,<br
-              class="visible-lg">
-            <span class="visible-lg-inline ml20"></span>Ambattur, Chennai - 98, Tamil Nadu, India, 600098
-          </p>
-          <p class="mt10"><i class="fa fa-phone fs12 mr5 white"></i> <a href="#">9597254501</a>, <a
-              href="#">8939205000</a></p>
-          <p class="mt10"><i class="fa fa-envelope fs12 mr5 white"></i> <a href="#">info@yourwebsite.com</a><br>
-            <i class="fa fa-envelope fs12 mr5 white"></i> <a href="#">sales@yourwebsite.com</a>
-          </p>
-          <p class="mt10"><i class="fa fa-user fs12 mr5 white"></i> Contact Person: Kaliyamoorthy.G (Proprietor)</p>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="f_map_con">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.045654477898!2d80.1482670749918!3d13.098541987265508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5263c7b89a5c7f%3A0x1c46a6b6c6f5d5b5!2sSIDCO%20Industrial%20Estate%2C%20Pattaravakkam%2C%20Ambattur%2C%20Chennai%2C%20Tamil%20Nadu%20600098!5e0!3m2!1sen!2sin!4v1647854321234!5m2!1sen!2sin"
-            width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="clearfix"></div>
-    </div>
-    <div class="cs">
-      <div class=" container">
-        <div class="social_midea_con"> <a href="#" class="trans_eff"><i class="fa fa-facebook"></i></a> <a href="#"
-            class="trans_eff"><i class="fa fa-twitter"></i></a> <a href="#" class="trans_eff"><i
-              class="fa fa-linkedin"></i></a> <a href="#" class="trans_eff"><i class="fa fa-youtube"></i></a> </div>
-        <p class="copyright">© 2018, <span class="white">Auditya Crop Care</span>. All rights reserved | Manufacturers •
-          Suppliers • Exporters</p>
-        <div class="clearfix"></div>
-      </div>
-    </div>
-  </footer>
-  <p id="back-top"> <a href="#top" class="btn btn-top trans_eff"><i class="fa fa-arrow-up"></i></a></p>
-  <!-- #EndLibraryItem --><!--A FOOTER ENDS AAAA-->
-
-  <script src="Scripts/jquery-1.11.3.min.js"></script>
-  <script src="Scripts/bootstrap.min.js"></script>
-  <script src="Scripts/endlessRiver.js"></script>
-  <script src="Scripts/function.js"></script>
-</body>
-
-</html>
+  <!-- footer  -->
+  <?php include('footer.php') ?>
